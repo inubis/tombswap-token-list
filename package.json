@@ -1,32 +1,32 @@
 {
-  "name": "@uniswap/default-token-list",
-  "version": "2.0.0",
-  "description": "◦ The Uniswap default token list",
-  "main": "build/uniswap-default.tokenlist.json",
+  "name": "@inubis/tombswap-token-list",
+  "version": "2.1.0",
+  "description": "◦ The Tombswap default token list",
+  "main": "build/inubis-tombswap.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/uniswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/inubis-tombswap.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
-    "build/uniswap-default.tokenlist.json"
+    "build/inubis-tombswap.tokenlist.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uniswap/default-token-list.git"
+    "url": "git+https://github.com/inubis/tombswap-token-list.git"
   },
   "keywords": [
-    "uniswap",
+    "tombswap",
     "default",
     "token",
     "list"
   ],
-  "author": "Moody Salem",
+  "author": "Inubis dev",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Uniswap/default-token-list/issues"
+    "url": "https://github.com/inubis/tombswap-token-list/issues"
   },
-  "homepage": "https://github.com/Uniswap/default-token-list#readme",
+  "homepage": "https://github.com/inubis/tombswap-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@uniswap/token-lists": "^1.0.0-beta.8",
@@ -34,5 +34,11 @@
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
     "rimraf": "^3.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "np": "^7.5.0"
   }
 }
