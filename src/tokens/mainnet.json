@@ -14,5 +14,13 @@
       "decimals": 9,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/inubis/Resources/main/logo/logo_256.png"
+  },
+  {
+      "name": "Niros",
+      "address": "0x0770E5018B71f5FBDA00F42Dd13507E03D101A90",
+      "symbol": "NIROS",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/inubis/Resources/main/TokenLogo/niros_256.png"
   }
 ]
