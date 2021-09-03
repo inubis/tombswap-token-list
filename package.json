@@ -1,6 +1,6 @@
 {
   "name": "@inubis/tombswap-token-list",
-  "version": "2.1.0",
+  "version": "2.2.1",
   "description": "◦ The Tombswap default token list",
   "main": "build/inubis-tombswap.tokenlist.json",
   "scripts": {
